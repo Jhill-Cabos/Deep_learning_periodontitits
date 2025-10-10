@@ -14,4 +14,5 @@ This project focuses on using deep learning for detecting periodontitis through 
 **Date:** October 10, 2025 | 11:30 pm
 
 Oversampled the Low Risk Class: 
+
 <img width="392" height="260" alt="image" src="https://github.com/user-attachments/assets/8674b2e3-5093-48a6-a286-cbc8265063ca" />

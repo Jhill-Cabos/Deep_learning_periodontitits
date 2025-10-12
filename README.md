@@ -30,3 +30,5 @@ Best Result, added hyperparameters:
 
 <img width="442" height="130" alt="image" src="https://github.com/user-attachments/assets/b88406df-abc5-4f58-9e46-9d73c91a2777" />
 
+Here is the notebook: [YOLO11_2.ipynb](https://github.com/Jhill-Cabos/Deep_learning_periodontitits/blob/main/YOLO11_2.ipynb)
+

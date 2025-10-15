@@ -1,4 +1,4 @@
-# Deep Learning for Periodontitis
+<img width="561" height="110" alt="image" src="https://github.com/user-attachments/assets/5d1b6303-0e17-4b4a-a23a-7a526d6d7f68" /># Deep Learning for Periodontitis
 
 ### YOLO  
 **Date:** October 10, 2025 | 10:00 pm 
@@ -38,7 +38,7 @@ Here is the notebook: [YOLO11_2.ipynb](https://github.com/Jhill-Cabos/Deep_learn
 
 Best Result, added hyperparameters: 
 
-<img width="864" height="126" alt="image" src="https://github.com/user-attachments/assets/a7cef57e-cb19-4260-b7ea-2586cb283cf2" />
+<img width="561" height="110" alt="image" src="https://github.com/user-attachments/assets/9ecc334b-5ec6-4603-a4ff-abaeb957513e" />
 
 Here is the notebook: [RTDETR.ipynb](https://github.com/Jhill-Cabos/Deep_learning_periodontitits/blob/main/RTDETR.ipynb)
 

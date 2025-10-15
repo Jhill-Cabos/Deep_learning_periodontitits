@@ -1,44 +1,9 @@
-<img width="561" height="110" alt="image" src="https://github.com/user-attachments/assets/5d1b6303-0e17-4b4a-a23a-7a526d6d7f68" /># Deep Learning for Periodontitis
+# Deep Learning for Periodontitis — 3-Column Progress
 
-### YOLO  
-**Date:** October 10, 2025 | 10:00 pm 
+> Times are **Asia/Manila (PHT)**. Use ⭐ for milestones. Keep images ~`width="360–520"` for readability.
 
-This project focuses on using deep learning for detecting periodontitis through dental images. The YOLO model is used for object detection and identification of periodontal conditions.
-
-**Dataset link:** [Roboflow -October 10, 2025  ](https://app.roboflow.com/team-17/data-aug-eqsa6/5)
-
-**Result:**
-
-<img width="376" height="95" alt="image" src="https://github.com/user-attachments/assets/5a60111b-8c84-49f4-93d3-3364e560ce91" />
-
-------------------------------------------------------------
-
-**Date:** October 10, 2025 | 11:30 pm
-
-Oversampled the Low Risk Class: 
-
-<img width="392" height="260" alt="image" src="https://github.com/user-attachments/assets/8674b2e3-5093-48a6-a286-cbc8265063ca" />
-
-Results:
-
-<img width="465" height="145" alt="image" src="https://github.com/user-attachments/assets/d2cb047d-d9ec-4626-bc87-a6c4b22f935b" />
-
-------------------------------------------------------------
-⭐ **Date:** October 13, 2025 | 2:30 am
-
-Best Result, added hyperparameters: 
-
-<img width="442" height="130" alt="image" src="https://github.com/user-attachments/assets/b88406df-abc5-4f58-9e46-9d73c91a2777" />
-
-Here is the notebook: [YOLO11_2.ipynb](https://github.com/Jhill-Cabos/Deep_learning_periodontitits/blob/main/YOLO11_2.ipynb)
-
-### RTDETR
-
-⭐ **Date:** October 15, 2025 | 10:00 pm 
-
-Best Result, added hyperparameters: 
-
-<img width="561" height="110" alt="image" src="https://github.com/user-attachments/assets/9ecc334b-5ec6-4603-a4ff-abaeb957513e" />
-
-Here is the notebook: [RTDETR.ipynb](https://github.com/Jhill-Cabos/Deep_learning_periodontitits/blob/main/RTDETR.ipynb)
-
+| **YOLOv11** | **RF-DETR** | **RT-DETR** |
+|---|---|---|
+| **Oct 10, 2025 — 10:00 PM**<br>Baseline training on dental images; object detection for periodontal risk.<br><br>Dataset: [Roboflow — Oct 10, 2025](https://app.roboflow.com/team-17/data-aug-eqsa6/5)<br>Result:<br><img src="https://github.com/user-attachments/assets/5a60111b-8c84-49f4-93d3-3364e560ce91" width="380"> | **Oct 15, 2025 — 9:00 PM**<br>Initial setup; verified losses (CE, bbox, GIoU) and training loop.<br>Log/Screenshot:<br><img src="<!-- add link to RF-DETR log image -->" width="420"><br>Notebook: [RFDETR.ipynb](<!-- add link -->) | ⭐ **Oct 15, 2025 — 10:00 PM**<br>Best so far — added hyperparameters (transformer-friendly aug + LR schedule).<br>Metrics:<br><img src="https://github.com/user-attachments/assets/9ecc334b-5ec6-4603-a4ff-abaeb957513e" width="520"><br>Notebook: [RTDETR.ipynb](https://github.com/Jhill-Cabos/Deep_learning_periodontitits/blob/main/RTDETR.ipynb) |
+| **Oct 10, 2025 — 11:30 PM**<br>Oversampled **Low Risk** class to address imbalance.<br>Oversampling plot:<br><img src="https://github.com/user-attachments/assets/8674b2e3-5093-48a6-a286-cbc8265063ca" width="380"><br>Results:<br><img src="https://github.com/user-attachments/assets/d2cb047d-d9ec-4626-bc87-a6c4b22f935b" width="420"> | **Oct 15, 2025 — 11:00 PM**<br>Tuned aug (lower mosaic/mixup), warmup & weight decay.<br>Before/After:<br><img src="<!-- add link to RF-DETR before/after metrics -->" width="420"> |  |
+| ⭐ **Oct 13, 2025 — 2:30 AM**<br>Best so far — hyperparameter tuning (lr, wd, aug).<br>Metrics:<br><img src="https://github.com/user-attachments/assets/b88406df-abc5-4f58-9e46-9d73c91a2777" width="420"><br>Notebook: [YOLO11_2.ipynb](https://github.com/Jhill-Cabos/Deep_learning_periodontitits/blob/main/YOLO11_2.ipynb) | ⭐ **Oct 16, 2025 — 1:30 AM**<br>LR sweep + EMA; improved mAP50-95.<br>Metrics:<br><img src="<!-- add link to RF-DETR best metrics image -->" width="420"><br>Run config: [`rf-detr-config.yaml`](<!-- add link if committed -->) |  |

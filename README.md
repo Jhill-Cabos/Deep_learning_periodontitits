@@ -1,4 +1,5 @@
 <h1>Deep Learning for Periodontitis — 3-Column Progress</h1>
+<p><em>Times are Asia/Manila (PHT). Use ⭐ for milestones.</em></p>
 
 <table>
   <thead>
@@ -10,83 +11,106 @@
   </thead>
   <tbody>
     <tr>
-      <!-- YOLOv11 COLUMN -->
+      <!-- ===================== YOLOv11 ===================== -->
       <td>
-        <ul>
-          <li>
-            <b>Oct 10, 2025 — 10:00 PM</b><br/>
-            Baseline training on dental images; object detection for periodontal risk.<br/>
-            Dataset: <a href="https://app.roboflow.com/team-17/data-aug-eqsa6/5">Roboflow — Oct 10, 2025</a><br/>
-            <details><summary>Result (screenshot)</summary>
-              <img src="https://github.com/user-attachments/assets/5a60111b-8c84-49f4-93d3-3364e560ce91" width="360"/>
-            </details>
-          </li>
 
-          <li>
-            <b>Oct 10, 2025 — 11:30 PM</b><br/>
-            Oversampled <b>Low Risk</b> class to address imbalance.<br/>
-            <details><summary>Oversampling plot</summary>
-              <img src="https://github.com/user-attachments/assets/8674b2e3-5093-48a6-a286-cbc8265063ca" width="360"/>
-            </details>
-            <details><summary>Results</summary>
-              <img src="https://github.com/user-attachments/assets/d2cb047d-d9ec-4626-bc87-a6c4b22f935b" width="420"/>
-            </details>
-          </li>
+        <!-- ENTRY -->
+        <p><strong>Oct 10, 2025 — 10:00 PM</strong><br/>
+        Baseline training on dental images; object detection for periodontal risk.<br/>
+        Dataset: (add later)</p>
 
-          <li>
-            ⭐ <b>Oct 13, 2025 — 2:30 AM</b><br/>
-            Best so far — hyperparameter tuning (lr, wd, aug).<br/>
-            <a href="https://github.com/Jhill-Cabos/Deep_learning_periodontitits/blob/main/YOLO11_2.ipynb">YOLO11_2.ipynb</a>
-            <details><summary>Metrics</summary>
-              <img src="https://github.com/user-attachments/assets/b88406df-abc5-4f58-9e46-9d73c91a2777" width="420"/>
-            </details>
-          </li>
-        </ul>
+        <p>Result (screenshot):<br/>
+        <img src="" width="380" />
+        </p>
+
+        <br/><br/>
+
+        <!-- ENTRY -->
+        <p><strong>Oct 10, 2025 — 11:30 PM</strong><br/>
+        Oversampled <strong>Low Risk</strong> class to address imbalance.</p>
+
+        <p>Oversampling plot:<br/>
+        <img src="" width="380" />
+        </p>
+
+        <p>Results (metrics screenshot):<br/>
+        <img src="" width="420" />
+        </p>
+
+        <br/><br/>
+
+        <!-- ENTRY -->
+        <p>⭐ <strong>Oct 13, 2025 — 2:30 AM</strong><br/>
+        Best so far — hyperparameter tuning (lr, wd, aug).<br/>
+        Notebook: (add later)
+        </p>
+
+        <p>Metrics (screenshot):<br/>
+        <img src="" width="420" />
+        </p>
+
       </td>
 
-      <!-- RF-DETR COLUMN -->
+      <!-- ===================== RF-DETR ===================== -->
       <td>
-        <ul>
-          <li>
-            <b>Oct 15, 2025 — 9:00 PM</b><br/>
-            Initial setup; verified losses (CE, bbox, GIoU) and training loop.<br/>
-            Notebook: <a href="<!-- add your RFDETR notebook link -->">RFDETR.ipynb</a>
-            <details><summary>Log/Screenshot</summary>
-              <img src="<!-- add link to RF-DETR log image -->" width="420"/>
-            </details>
-          </li>
 
-          <li>
-            <b>Oct 15, 2025 — 11:00 PM</b><br/>
-            Tuned aug (lower mosaic/mixup), warmup & weight decay.<br/>
-            <details><summary>Before/After metrics</summary>
-              <img src="<!-- add link to RF-DETR before/after metrics -->" width="420"/>
-            </details>
-          </li>
+        <!-- ENTRY -->
+        <p><strong>Oct 15, 2025 — 9:00 PM</strong><br/>
+        Initial setup; verified losses (CE, bbox, GIoU) and training loop.<br/>
+        Notebook: (add later)
+        </p>
 
-          <li>
-            ⭐ <b>Oct 16, 2025 — 1:30 AM</b><br/>
-            Best so far — LR sweep + EMA; improved mAP50–95.<br/>
-            Config: <a href="<!-- add link if committed -->">rf-detr-config.yaml</a>
-            <details><summary>Metrics</summary>
-              <img src="<!-- add link to RF-DETR best metrics image -->" width="420"/>
-            </details>
-          </li>
-        </ul>
+        <p>Log / Screenshot:<br/>
+        <img src="" width="420" />
+        </p>
+
+        <br/><br/>
+
+        <!-- ENTRY -->
+        <p><strong>Oct 15, 2025 — 11:00 PM</strong><br/>
+        Tuned augmentation (lower mosaic/mixup), warmup, and weight decay.</p>
+
+        <p>Before / After metrics (screenshot):<br/>
+        <img src="" width="420" />
+        </p>
+
+        <br/><br/>
+
+        <!-- ENTRY -->
+        <p>⭐ <strong>Oct 16, 2025 — 1:30 AM</strong><br/>
+        Best so far — LR sweep + EMA; improved mAP50–95.<br/>
+        Config file: (add later)
+        </p>
+
+        <p>Metrics (screenshot):<br/>
+        <img src="" width="420" />
+        </p>
+
       </td>
 
-      <!-- RT-DETR COLUMN -->
+      <!-- ===================== RT-DETR ===================== -->
       <td>
-        <ul>
-          <li>
-            ⭐ <b>Oct 15, 2025 — 10:00 PM</b><br/>
-            Best so far — transformer-friendly aug + LR schedule.<br/>
-            Notebook: <a href="https://github.com/Jhill-Cabos/Deep_learning_periodontitits/blob/main/RTDETR.ipynb">RTDETR.ipynb</a>
-            <details><summary>Metrics</summary>
-              <img src="https://github.com/user-attachments/assets/9ecc334b-5ec6-4603-a4ff-abaeb957513e" width="520"/>
-            </details>
-          </li>
-        </ul>
+
+        <!-- ENTRY -->
+        <p>⭐ <strong>Oct 15, 2025 — 10:00 PM</strong><br/>
+        Best so far — transformer-friendly augmentation + LR schedule.<br/>
+        Notebook: (add later)
+        </p>
+
+        <p>Metrics (screenshot):<br/>
+        <img src="" width="520" />
+        </p>
+
+        <br/><br/>
+
+        <!-- Add more RT-DETR entries below -->
+        <p><strong>[Add Date & Time]</strong><br/>
+        [Short note of what changed]</p>
+
+        <p>[Optional screenshot]:<br/>
+        <img src="" width="420" />
+        </p>
+
       </td>
     </tr>
   </tbody>

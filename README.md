@@ -1,117 +1,76 @@
-<h1>Deep Learning for Periodontitis — 3-Column Progress</h1>
-<p><em>Times are Asia/Manila (PHT). Use ⭐ for milestones.</em></p>
+# Deep Learning for Periodontitis — Progress (PHT)
+_Times are Asia/Manila. Use ⭐ for milestones._
 
-<table>
-  <thead>
-    <tr>
-      <th>YOLOv11</th>
-      <th>RF-DETR</th>
-      <th>RT-DETR</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <!-- ===================== YOLOv11 ===================== -->
-      <td>
+---
 
-        <!-- ENTRY -->
-        <p><strong>Oct 10, 2025 — 10:00 PM</strong><br/>
-        Baseline training on dental images; object detection for periodontal risk.<br/>
-        Dataset: (add later)</p>
+## YOLOv11
 
-        <p>Result (screenshot):<br/>
-        <img src="" width="380" />
-        </p>
+- **Oct 10, 2025 — 10:00 PM**  
+  Baseline training on dental images; object detection for periodontal risk.  
+  Dataset: _add later_  
+  Result (screenshot): _add later_  
+  `![result](<paste-image-url>)`
 
-        <br/><br/>
+- **Oct 10, 2025 — 11:30 PM**  
+  Oversampled **Low Risk** class to address imbalance.  
+  Oversampling plot: _add later_  
+  Results (metrics screenshot): _add later_  
+  `![oversampling](<paste-image-url>)`  
+  `![results](<paste-image-url>)`
 
-        <!-- ENTRY -->
-        <p><strong>Oct 10, 2025 — 11:30 PM</strong><br/>
-        Oversampled <strong>Low Risk</strong> class to address imbalance.</p>
+- ⭐ **Oct 13, 2025 — 2:30 AM**  
+  Best so far — hyperparameter tuning (lr, wd, aug).  
+  Notebook: _add later_  
+  Metrics (screenshot): _add later_  
+  `![metrics](<paste-image-url>)`
 
-        <p>Oversampling plot:<br/>
-        <img src="" width="380" />
-        </p>
+---
 
-        <p>Results (metrics screenshot):<br/>
-        <img src="" width="420" />
-        </p>
+## RF-DETR
 
-        <br/><br/>
+- **Oct 15, 2025 — 9:00 PM**  
+  Initial setup; verified losses (CE, bbox, GIoU) and training loop.  
+  Notebook: _add later_  
+  Log / Screenshot: _add later_  
+  `![log](<paste-image-url>)`
 
-        <!-- ENTRY -->
-        <p>⭐ <strong>Oct 13, 2025 — 2:30 AM</strong><br/>
-        Best so far — hyperparameter tuning (lr, wd, aug).<br/>
-        Notebook: (add later)
-        </p>
+- **Oct 15, 2025 — 11:00 PM**  
+  Tuned augmentation (lower mosaic/mixup), warmup, and weight decay.  
+  Before/After metrics (screenshot): _add later_  
+  `![before-after](<paste-image-url>)`
 
-        <p>Metrics (screenshot):<br/>
-        <img src="" width="420" />
-        </p>
+- ⭐ **Oct 16, 2025 — 1:30 AM**  
+  Best so far — LR sweep + EMA; improved mAP50–95.  
+  Config file: _add later_  
+  Metrics (screenshot): _add later_  
+  `![metrics](<paste-image-url>)`
 
-      </td>
+---
 
-      <!-- ===================== RF-DETR ===================== -->
-      <td>
+## RT-DETR
 
-        <!-- ENTRY -->
-        <p><strong>Oct 15, 2025 — 9:00 PM</strong><br/>
-        Initial setup; verified losses (CE, bbox, GIoU) and training loop.<br/>
-        Notebook: (add later)
-        </p>
+- ⭐ **Oct 15, 2025 — 10:00 PM**  
+  Best so far — transformer-friendly augmentation + LR schedule.  
+  Notebook: _add later_  
+  Metrics (screenshot): _add later_  
+  `![metrics](<paste-image-url>)`
 
-        <p>Log / Screenshot:<br/>
-        <img src="" width="420" />
-        </p>
+- **[Add Date & Time]**  
+  [Short note of what changed]  
+  [Optional screenshot]  
+  `![screenshot](<paste-image-url>)`
 
-        <br/><br/>
+---
 
-        <!-- ENTRY -->
-        <p><strong>Oct 15, 2025 — 11:00 PM</strong><br/>
-        Tuned augmentation (lower mosaic/mixup), warmup, and weight decay.</p>
+### Quick edit tips
+- To add an update, **copy one bullet** block and fill in date, notes, and image URLs.
+- You can leave “_add later_” placeholders; they won’t break anything.
+- If you want to keep images small, append `?width=420` to GitHub image URLs (works for user-attachments).
 
-        <p>Before / After metrics (screenshot):<br/>
-        <img src="" width="420" />
-        </p>
+---
 
-        <br/><br/>
-
-        <!-- ENTRY -->
-        <p>⭐ <strong>Oct 16, 2025 — 1:30 AM</strong><br/>
-        Best so far — LR sweep + EMA; improved mAP50–95.<br/>
-        Config file: (add later)
-        </p>
-
-        <p>Metrics (screenshot):<br/>
-        <img src="" width="420" />
-        </p>
-
-      </td>
-
-      <!-- ===================== RT-DETR ===================== -->
-      <td>
-
-        <!-- ENTRY -->
-        <p>⭐ <strong>Oct 15, 2025 — 10:00 PM</strong><br/>
-        Best so far — transformer-friendly augmentation + LR schedule.<br/>
-        Notebook: (add later)
-        </p>
-
-        <p>Metrics (screenshot):<br/>
-        <img src="" width="520" />
-        </p>
-
-        <br/><br/>
-
-        <!-- Add more RT-DETR entries below -->
-        <p><strong>[Add Date & Time]</strong><br/>
-        [Short note of what changed]</p>
-
-        <p>[Optional screenshot]:<br/>
-        <img src="" width="420" />
-        </p>
-
-      </td>
-    </tr>
-  </tbody>
-</table>
+### New entry template (copy this)
+- **[Date — Time]**  
+  [What changed (1–2 lines).]  
+  [Extra note if needed.]  
+  `![label](<paste-image-url>)`

@@ -1,76 +1,31 @@
-# Deep Learning for Periodontitis — Progress (PHT)
-_Times are Asia/Manila. Use ⭐ for milestones._
-
----
+# Deep Learning for Periodontitis — Progress Report
 
 ## YOLOv11
 
-- **Oct 10, 2025 — 10:00 PM**  
-  Baseline training on dental images; object detection for periodontal risk.  
-  Dataset: _add later_  
-  Result (screenshot): _add later_  
-  `![result](<paste-image-url>)`
-
-- **Oct 10, 2025 — 11:30 PM**  
-  Oversampled **Low Risk** class to address imbalance.  
-  Oversampling plot: _add later_  
-  Results (metrics screenshot): _add later_  
-  `![oversampling](<paste-image-url>)`  
-  `![results](<paste-image-url>)`
-
-- ⭐ **Oct 13, 2025 — 2:30 AM**  
-  Best so far — hyperparameter tuning (lr, wd, aug).  
-  Notebook: _add later_  
-  Metrics (screenshot): _add later_  
-  `![metrics](<paste-image-url>)`
-
----
-
-## RF-DETR
-
-- **Oct 15, 2025 — 9:00 PM**  
-  Initial setup; verified losses (CE, bbox, GIoU) and training loop.  
-  Notebook: _add later_  
-  Log / Screenshot: _add later_  
-  `![log](<paste-image-url>)`
-
-- **Oct 15, 2025 — 11:00 PM**  
-  Tuned augmentation (lower mosaic/mixup), warmup, and weight decay.  
-  Before/After metrics (screenshot): _add later_  
-  `![before-after](<paste-image-url>)`
-
-- ⭐ **Oct 16, 2025 — 1:30 AM**  
-  Best so far — LR sweep + EMA; improved mAP50–95.  
-  Config file: _add later_  
-  Metrics (screenshot): _add later_  
-  `![metrics](<paste-image-url>)`
+| Date (PHT) | Change / Notes | Evidence / Links |
+|---|---|---|
+| **Oct 10, 2025 — 10:00 PM** | Baseline training on dental images (object detection for periodontal risk). Dataset prepared and linked. | Dataset: [Roboflow — Oct 10, 2025](https://app.roboflow.com/team-17/data-aug-eqsa6/5) <br> Result: <br><img src="https://github.com/user-attachments/assets/5a60111b-8c84-49f4-93d3-3364e560ce91" width="360"> |
+| **Oct 10, 2025 — 11:30 PM** | Oversampled **Low Risk** class to address imbalance. | Oversampling plot: <br><img src="https://github.com/user-attachments/assets/8674b2e3-5093-48a6-a286-cbc8265063ca" width="360"> <br> Results: <br><img src="https://github.com/user-attachments/assets/d2cb047d-d9ec-4626-bc87-a6c4b22f935b" width="420"> |
+| ⭐ **Oct 13, 2025 — 2:30 AM** | Best so far — tuned hyperparameters (lr, wd, aug). | Metrics: <br><img src="https://github.com/user-attachments/assets/b88406df-abc5-4f58-9e46-9d73c91a2777" width="420"> <br> Notebook: [YOLO11_2.ipynb](https://github.com/Jhill-Cabos/Deep_learning_periodontitits/blob/main/YOLO11_2.ipynb) |
 
 ---
 
 ## RT-DETR
 
-- ⭐ **Oct 15, 2025 — 10:00 PM**  
-  Best so far — transformer-friendly augmentation + LR schedule.  
-  Notebook: _add later_  
-  Metrics (screenshot): _add later_  
-  `![metrics](<paste-image-url>)`
-
-- **[Add Date & Time]**  
-  [Short note of what changed]  
-  [Optional screenshot]  
-  `![screenshot](<paste-image-url>)`
+| Date (PHT) | Change / Notes | Evidence / Links |
+|---|---|---|
+| ⭐ **Oct 15, 2025 — 10:00 PM** | Best so far — added hyperparameters (transformer-friendly aug + LR schedule). | Metrics: <br><img src="https://github.com/user-attachments/assets/9ecc334b-5ec6-4603-a4ff-abaeb957513e" width="520"> <br> Notebook: [RTDETR.ipynb](https://github.com/Jhill-Cabos/Deep_learning_periodontitits/blob/main/RTDETR.ipynb) |
 
 ---
 
-### Quick edit tips
-- To add an update, **copy one bullet** block and fill in date, notes, and image URLs.
-- You can leave “_add later_” placeholders; they won’t break anything.
-- If you want to keep images small, append `?width=420` to GitHub image URLs (works for user-attachments).
+## RF-DETR
+
+| Date (PHT) | Change / Notes | Evidence / Links |
+|---|---|---|
+| **Oct 15, 2025 — 9:00 PM** | Initial RF-DETR setup; verified training loop, losses logging (CE, bbox, GIoU). | Log snippet / screenshot here → <br><img src="<!-- add your image link -->" width="520"> <br> Notebook: [RFDETR.ipynb](<!-- add your RFDETR notebook link -->) |
+| **Oct 15, 2025 — 11:00 PM** | Adjusted augmentation (lower mosaic/mixup), tuned warmup & weight decay. | Before/After metrics image → <br><img src="<!-- add your image link -->" width="420"> |
+| ⭐ **Oct 16, 2025 — 1:30 AM** | Best so far — LR sweep + EMA on; improved mAP50-95. | Metrics screenshot → <br><img src="<!-- add your image link -->" width="420"> <br> Run config: [`rf-detr-config.yaml`](<!-- add link if you commit it -->) |
+
 
 ---
 
-### New entry template (copy this)
-- **[Date — Time]**  
-  [What changed (1–2 lines).]  
-  [Extra note if needed.]  
-  `![label](<paste-image-url>)`

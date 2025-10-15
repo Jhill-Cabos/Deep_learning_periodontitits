@@ -32,3 +32,10 @@ Best Result, added hyperparameters:
 
 Here is the notebook: [YOLO11_2.ipynb](https://github.com/Jhill-Cabos/Deep_learning_periodontitits/blob/main/YOLO11_2.ipynb)
 
+### RTDETR
+
+⭐ **Date:** October 15, 2025 | 10:00 pm 
+
+Best Result, added hyperparameters: 
+<img width="864" height="126" alt="image" src="https://github.com/user-attachments/assets/a7cef57e-cb19-4260-b7ea-2586cb283cf2" />
+

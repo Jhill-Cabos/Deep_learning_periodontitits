@@ -22,9 +22,9 @@
 
 | Date (PHT) | Change / Notes | Evidence / Links |
 |---|---|---|
-| **Oct 15, 2025 — 9:00 PM** | Initial RF-DETR setup; verified training loop, losses logging (CE, bbox, GIoU). | Log snippet / screenshot here → <br><img src="<!-- add your image link -->" width="520"> <br> Notebook: [RFDETR.ipynb](https://github.com/Jhill-Cabos/Deep_learning_periodontitits/blob/main/RFDETR.ipynb) |
-| **Oct 15, 2025 — 11:00 PM** | Adjusted augmentation (lower mosaic/mixup), tuned warmup & weight decay. | Before/After metrics image → <br> width="420"> |
-| ⭐ **Oct 16, 2025 — 1:30 AM** | Best so far — LR sweep + EMA on; improved mAP50-95. | Metrics screenshot → <br>: [results.json](https://github.com/Jhill-Cabos/Deep_learning_periodontitits/blob/main/results.json)" width="420"> <br>
+| **Oct 15, 2025 — 9:00 PM** | Initial RF-DETR setup; verified training loop, losses logging (CE, bbox, GIoU). | <br> Notebook: [RFDETR.ipynb](https://github.com/Jhill-Cabos/Deep_learning_periodontitits/blob/main/RFDETR.ipynb) |
+| **Oct 15, 2025 — 11:00 PM** | Adjusted augmentation (lower mosaic/mixup), tuned warmup & weight decay. |
+| ⭐ **Oct 16, 2025 — 1:30 AM** | Best so far — LR sweep + EMA on; improved mAP50-95. | Metrics screenshot → <br>: [results.json](https://github.com/Jhill-Cabos/Deep_learning_periodontitits/blob/main/results.json) <br>
 
 
 ---
